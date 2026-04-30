@@ -6,13 +6,17 @@
 }.container{
     background-color: grey;
 }
-.box{
+#box{
     height: 120px;
     width:200px;
     background-color:pink;
     margin-left: 550px;
     font-size: 100px;
     font-weight: bolder;
-    text-align: center;
-    
+    text-align: center;  
+}#btn{
+    margin-left: 790px;
+    border-radius: 15px;
+    background-color: greenyellow;
+    height:29px;
 }
