@@ -9,7 +9,6 @@ button.addEventListener("click",()=>{
   "₹5 Discount!!!","Better Luck Next Time!!!","₹10 Discount!!!","₹3 Discount!!!","Better Luck Next Time!!!",
   "Special Prize 🎁🎁!!!","₹2 Discount!!!","Better Luck Next Time!!!","₹8 Discount!!!","₹1 Discount!!!",
 ];const display=prizes[value];
-console.log(display)
 document.getElementById("text-suprise").innerHTML=display;
 })
 });
