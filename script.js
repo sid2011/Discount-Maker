@@ -14,9 +14,9 @@ document.getElementById("text-suprise").innerHTML=display;
 })
 });
 //Audio and Confetti animations
-button.addEventListener("click", () => {
 const jsconfetti=new JSConfetti();
 const sound=new Audio("celebration.mp3");
+button.addEventListener("click", () => {
 jsconfetti.addConfetti()
 sound.play()
 sound.currentTime=0;
